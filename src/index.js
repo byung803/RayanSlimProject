@@ -1,8 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import Main from './Components/Main';
+import './styles/stylesheet.css';
 
-const jsx = (
-    <div>hi</div>
-);
-
-ReactDOM.render(jsx, document.getElementById('root'));
+ReactDOM.render(<Main />, document.getElementById('root'));
